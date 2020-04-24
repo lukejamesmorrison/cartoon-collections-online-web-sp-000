@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(items)
   items.map do |item|
-    
+    item.capitalize + "!"
   end
 end
 
